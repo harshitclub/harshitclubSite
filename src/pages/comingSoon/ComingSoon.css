@@ -1,0 +1,68 @@
+.comingSoon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 0 0 0;
+}
+
+.comingSoon .comingSoonContent {
+  color: var(--mainWhite);
+  text-align: center;
+  border: 1px solid #fff;
+  width: 50%;
+  padding: 2rem;
+  border-radius: 0.2rem;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.comingSoonContent img {
+  width: 70%;
+}
+
+.comingSoonContent h1 {
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+}
+
+.comingSoonContent h2 {
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+}
+
+.comingSoonContent p {
+  text-transform: lowercase;
+  color: var(--mainGrey2);
+  line-height: 1.8rem;
+  margin: 0 0 1rem 0;
+}
+
+.csIcons {
+  margin: 0 0 -0.2rem 0;
+}
+
+.comingSoonContent h4 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.comingSoonContent h4 a {
+  color: var(--mainWhite);
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+  .comingSoon {
+    /* height: 80vh; */
+
+    align-items: flex-start;
+  }
+
+  .comingSoon .comingSoonContent {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+  }
+
+  .comingSoonContent img {
+    width: 80%;
+  }
+}
