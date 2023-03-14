@@ -47,17 +47,17 @@ const ComingSoon = () => {
             <a href="mailto:harshitclub@gmail.com">harshitclub@gmail.com</a>
           </h4>
           <div className="socialLinks">
-            <div>
+            <div className="sLinkDiv">
               <a href="https://www.linkedin.com/in/harshitclub/">
                 <AiFillLinkedin />
               </a>
             </div>
-            <div>
+            <div className="sLinkDiv">
               <a href="https://github.com/harshitclub">
                 <AiOutlineGithub />
               </a>
             </div>
-            <div>
+            <div className="sLinkDiv">
               <a href="https://twitter.com/Harshitclub">
                 <AiFillTwitterSquare />
               </a>

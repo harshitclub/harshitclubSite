@@ -48,6 +48,13 @@
 
 .comingSoonContent h4 a {
   color: var(--mainWhite);
+  text-decoration: none;
+}
+
+.comingSoonContent h4 a:hover {
+  color: var(--mainGrey2);
+  text-decoration: underline;
+  transition: 0.2s;
 }
 
 .socialLinks {
@@ -56,6 +63,11 @@
   justify-content: center;
   font-size: 2.2rem;
   margin: 0 0 2rem 0;
+}
+
+.socialLinks .sLinkDiv:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 
 .socialLinks a {
