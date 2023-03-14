@@ -11,6 +11,11 @@ import {
   DiReact,
   DiWordpress,
 } from "react-icons/di";
+import {
+  AiFillLinkedin,
+  AiFillTwitterSquare,
+  AiOutlineGithub,
+} from "react-icons/ai";
 
 import harshitclubWhite from "../../assets/harshitclub white.svg";
 
@@ -41,6 +46,24 @@ const ComingSoon = () => {
             Contact:{" "}
             <a href="mailto:harshitclub@gmail.com">harshitclub@gmail.com</a>
           </h4>
+          <div className="socialLinks">
+            <div>
+              <a href="https://www.linkedin.com/in/harshitclub/">
+                <AiFillLinkedin />
+              </a>
+            </div>
+            <div>
+              <a href="https://github.com/harshitclub">
+                <AiOutlineGithub />
+              </a>
+            </div>
+            <div>
+              <a href="https://twitter.com/Harshitclub">
+                <AiFillTwitterSquare />
+              </a>
+            </div>
+          </div>
+          <h5>Thank You For Visiting</h5>
         </div>
       </div>
     </>

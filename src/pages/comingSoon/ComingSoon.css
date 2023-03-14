@@ -43,10 +43,29 @@
 .comingSoonContent h4 {
   font-weight: 500;
   font-size: 1.2rem;
+  margin: 0 0 2rem 0;
 }
 
 .comingSoonContent h4 a {
   color: var(--mainWhite);
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  margin: 0 0 2rem 0;
+}
+
+.socialLinks a {
+  color: var(--mainWhite);
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.comingSoonContent h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 200px) and (max-width: 600px) {
