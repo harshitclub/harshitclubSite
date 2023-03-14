@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 6rem 0 0 0;
+  padding: 5rem 0 0 0;
 }
 
 .comingSoon .comingSoonContent {
@@ -65,6 +65,12 @@
 
 .comingSoonContent h5 {
   font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 0 2rem 0;
+}
+
+.comingSoonContent h6 {
+  font-size: 1rem;
   font-weight: 500;
 }
 

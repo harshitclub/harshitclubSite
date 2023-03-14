@@ -64,6 +64,7 @@ const ComingSoon = () => {
             </div>
           </div>
           <h5>Thank You For Visiting</h5>
+          <h6>© harshitclub.com | All Right Reserved</h6>
         </div>
       </div>
     </>
